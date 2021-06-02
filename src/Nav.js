@@ -1,25 +1,3 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// function Nav({ dogs }) {
-//   return (
-//     <ul>
-//       {dogs.map(dog => (
-//         <li key={dog}>
-//           <Link to={`/dog/${dog}`}>Show me {dog}!</Link>
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// }
-
-// Nav.defaultProps = {
-//   dogs: ["duke", "perry", "tubby", "whiskey"]
-// };
-
-// export default Nav;
-
-
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
